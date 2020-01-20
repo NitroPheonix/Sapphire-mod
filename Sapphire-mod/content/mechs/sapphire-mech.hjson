@@ -1,0 +1,16 @@
+name: Sapphire
+description: An unnaturally elongated mech. Spews messy lightning all over your enemies.
+speed: 2.5
+boostSpeed: 5
+buildPower: 5
+engineColor: "0l00ff"
+flying: false
+health: 300
+weaponOffsetX: 4
+weapon: {
+  name: sapphire-blaster
+  length: 1.5
+  reload: 4
+  alternate: false
+  bullet: lightning
+}

@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Crystal Generator
+description: Magically produces power from ruby dust. Don't ask.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 2.5
+consumes: {
+  items: {
+    items: [
+      ruby-dust/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  gem-amalgam/50
+]
+category: power
+research: sapphire-crucible

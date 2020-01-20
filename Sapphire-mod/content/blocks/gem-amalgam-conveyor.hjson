@@ -1,0 +1,12 @@
+type: Conveyor
+name: Gem Amalgam conveyor
+description: Gem conveyor.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  gem-amalgam/1
+]
+category: distribution
+speed: 0.5
+research: titanium-conveyor

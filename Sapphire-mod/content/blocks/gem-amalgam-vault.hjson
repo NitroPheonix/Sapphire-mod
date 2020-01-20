@@ -1,0 +1,14 @@
+name: Gem Amalgam Vault
+description: A vault made purely of crystals.
+type: Vault
+itemCapacity: 25000000
+hasItems: true
+health: 2000
+size: 3
+requirements: [
+  gem-amalgam/20
+  titanium/60
+  thorium/40
+]
+category: effect
+research: vault

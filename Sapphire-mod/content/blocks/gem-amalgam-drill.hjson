@@ -1,0 +1,21 @@
+name: Gem Amalgam Drill
+description: A very strange drill.
+type: Drill
+size: 3
+tier: 3
+drillTime: 25
+consumes: {
+  power: 1.2
+  liquid: {
+    liquid: molten-sapphire
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  gem-amalgam/80
+  silicon/40
+  graphite/20
+]
+category: production
+research: laser-drill

@@ -1,0 +1,23 @@
+name: Sapphire Wraith Factory
+description: Makes Sapphire Wraith units.
+type: UnitFactory
+unitType: sapphire-wraith
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/10
+      sapphire/5
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+  sapphire/70
+  gem-amalgam/40
+  silicon/40
+  titanium/20
+]

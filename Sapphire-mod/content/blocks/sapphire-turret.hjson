@@ -1,0 +1,27 @@
+type: DoubleTurret
+name: Sapphire Turret
+description: Sprays useless sapphire bullets everywhere. What a mess.
+health: 200
+size: 1
+reload: 4
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 30
+rotatespeed: 12
+ammo: {
+  sapphire: {
+    speed: 3
+    damage: 10
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+  }
+}
+requirements: [
+  sapphire/40
+  copper/70
+]
+category: turret
+research: duo

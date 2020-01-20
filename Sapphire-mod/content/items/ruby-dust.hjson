@@ -1,0 +1,4 @@
+type: resource
+name: Ruby Dust
+description: Ruby in dust form. Only used for production.
+color: ff0000

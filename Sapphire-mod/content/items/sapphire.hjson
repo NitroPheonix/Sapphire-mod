@@ -1,0 +1,6 @@
+type: material
+name: Sapphire
+description: A rare resource.
+hardness: 2
+cost: 2
+color: 0l00ff

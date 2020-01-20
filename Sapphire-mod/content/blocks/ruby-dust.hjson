@@ -1,0 +1,5 @@
+type: floor
+name: Ruby Dust
+itemDrop: ruby-dust
+variants: 3
+playerUnmineable: true

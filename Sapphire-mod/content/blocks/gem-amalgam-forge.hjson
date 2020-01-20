@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Gem Forge
+description: Combines molten sapphire and ruby dust to produce gem amalgams.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      ruby-dust/2
+    ]
+  }
+  liquid: {
+    liquid: molten-sapphire
+    amount: 1
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  sapphire/50
+]
+category: crafting
+research: sapphire-crucible
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: gem-amalgam/1

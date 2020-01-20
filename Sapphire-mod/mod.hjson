@@ -1,0 +1,6 @@
+name: "sapphire-mod"
+displayName: "[blue]Sapphire Mod"
+author: NitroPheonix
+description: "A mod that revolves around [red]rubies and [blue]sapphires!"
+version: "1.0"
+minGameVersion: "102.3"

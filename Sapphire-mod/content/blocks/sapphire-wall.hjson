@@ -1,0 +1,9 @@
+name: Silver Wall
+description: A wall made of sapphire, pretty strong actually.
+health: 7800
+size: 2
+requirements: [
+  sapphire/40
+]
+category: defense
+research: copper-wall
